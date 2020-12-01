@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Le formulaire interactif - jQuery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="erreur">
+        <p>Vous n'avez pas rempli correctement les champs du formulaire !</p>
+    </div>
+
+    <form>
+        <label for="pseudo">Pseudonyme</label> <input type="text" id="pseudo" class="champ" /><br />
+        <label for="mdp">Mot de passe</label> <input type="password" id="mdp" class="champ" /><br />
+        <label for="confirmation">Confirmation</label> <input type="password" id="confirmation" class="champ" /><br />
+        <label for="mail">E-mail</label> <input type="text" id="mail" class="champ" /><br />
+        <input type="submit" id="envoi" value="Envoyer" /> <input type="reset" id="rafraichir" value="Rafraîchir" /><br />
+    </form>
+
+
+    <!-- on inclut la bibliothèque depuis les serveurs de Google -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

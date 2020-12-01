@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="erreur">
+        <p>Vous n'avez pas correctement rempli votre formulaire.</p>
+    </div>
+
+    <div id="formulaire">
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" class="champ" />
+        <label for="sujet">Mot de passe</label>
+        <input type="text" id="sujet" class="champ" />
+        <label for="mail">Email</label>
+        <input type="text" id="mail" class="champ" />
+        <label class="form" for="message">Message</label>
+        <textarea name="message" class="champ" id="message" rows="10"></textarea>
+        <input id="envoieform" type="submit" value="Envoyer" />
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

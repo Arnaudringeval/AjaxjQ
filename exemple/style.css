@@ -1,0 +1,51 @@
+body {
+    background-color: #cdcdcd;
+}
+
+#envoi {
+    background-color: #cdcdcd;
+    border-radius: 10px;
+    border: 0 solid;
+    font-size: 16px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 0 0 auto;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75)
+}
+
+#erreur {
+    display: none;
+}
+
+#pseudo {
+    border: 0 solid;
+    padding: 5px 0 5px 2px;
+    margin: 8px 0 8px 0;
+}
+
+#sujet {
+    border: 0 solid;
+    padding: 5px 0 5px 2px;
+    margin: 8px 0 8px 0;
+}
+
+#mail {
+    border: 0 solid;
+    padding: 5px 0 5px 2px;
+    margin: 8px 0 8px 0;
+}
+
+#message {
+    border: 0 solid;
+    padding: 5px 0 0 2px;
+    margin: 8px 0 8px 0;
+}
+
+form {
+    z-index: 0;
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 40px;
+    width: 250px;
+}
